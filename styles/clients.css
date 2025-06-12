@@ -225,4 +225,74 @@
   .city-count {
     font-size: 14px;
   }
+}
+
+/* Other Public Agencies Section */
+.other-agencies-section {
+  margin-top: 60px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.05); /* Same as county/city sections */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: var(--white_a700);
+}
+
+.other-agencies-title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  font-family: Verdana, sans-serif;
+  color: var(--gold_500);
+}
+
+.other-agencies-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px 30px; /* Vertical and horizontal gap */
+}
+
+.other-agencies-list li {
+  padding: 8px 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 18px;
+  line-height: 1.4;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.other-agencies-list li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 1024px) {
+  .other-agencies-list {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .other-agencies-section {
+    padding: 30px;
+    margin-top: 40px;
+  }
+
+  .other-agencies-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+
+  .other-agencies-list {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .other-agencies-list li {
+    font-size: 16px;
+  }
 } 

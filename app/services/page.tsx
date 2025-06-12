@@ -19,7 +19,11 @@ const servicesData: Service[] = [
   {
     id: 'residential',
     title: 'Residential Property',
-    content: `Residential properties appraised include single family, condominiums, own-your-own, townhouse, low and medium density multiple family, 100+ unit apartment complexes, custom homes, beachfront homes, bayfront properties, boat docks, mobile home parks, single resident occupancy (SRO) developments, vacant single family lot and acreage parcels, residential subdivisions, multiple family residential land parcels, affordable housing sites, and entitled developments.`,
+    content: `Residential properties appraised include single family, condominiums, own-your-own, 
+    townhouse, low and medium density multiple family, 100+ unit apartment complexes, custom homes, 
+    beachfront homes, bayfront properties, boat docks, mobile home parks, single resident occupancy 
+    (SRO) developments, vacant single family lot and acreage parcels, residential subdivisions, 
+    multiple family residential land parcels, affordable housing sites, and entitled developments.`,
     imagePath: '/assets/residentialproperties.JPG',
     carouselImages: [
       '/assets/residentialproperties.JPG',
@@ -30,9 +34,17 @@ const servicesData: Service[] = [
   {
     id: 'commercial-industrial',
     title: 'Commercial and Industrial Property',
-    content: `Commercial property appraisal studies have included single and multi-tenant retail, strip centers, shopping centers, low-rise and high-rise office buildings, medical offices, restaurants and fast-food developments, nightclubs, convenience stores, theaters, parking garages, automobile repair and service facilities, service stations, self-storage facilities, truck fueling and washing stations, car wash facilities, automobile sales, mixed-use properties, hotel and motel properties, various marina developments, and vacant land.
+    content: `Commercial property appraisal studies have included single and multi-tenant 
+    retail, strip centers, shopping centers, low-rise and high-rise office buildings, medical 
+    offices, restaurants and fast-food developments, nightclubs, convenience stores, theaters, 
+    parking garages, automobile repair and service facilities, service stations, self-storage 
+    facilities, truck fueling and washing stations, car wash facilities, automobile sales, 
+    mixed-use properties, hotel and motel properties, various marina developments, and vacant land.
 
-Industrial property appraisals have included warehouses, light and heavy manufacturing, business parks, distribution and transit facilities, food processing, cold storage, lumber yards, recycling centers, open storage, port properties, airport properties, vacant land, properties encumbered with oil and water injection wells, sites with soil contamination, and land fill properties.`,
+    Industrial property appraisals have included warehouses, light and heavy manufacturing, 
+    business parks, distribution and transit facilities, food processing, cold storage, lumber yards, 
+    recycling centers, open storage, port properties, airport properties, vacant land, properties 
+    encumbered with oil and water injection wells, sites with soil contamination, and land fill properties.`,
     imagePath: '/assets/industrial.JPG',
     carouselImages: [
       '/assets/industrial.JPG',
@@ -43,7 +55,16 @@ Industrial property appraisals have included warehouses, light and heavy manufac
   {
     id: 'special-purpose',
     title: 'Special Purpose and Special Use Properties',
-    content: `Appraisal services and valuation studies of public, quasi-public, special use, and non-profit facilities include, among others, seaport properties, airports, wetlands, tidelands, conservation land, river rights-of-way, reservoirs, utility and railroad corridors, flood control channels, San Onofre Nuclear facility, city hall buildings and civic center complexes, courthouses, libraries, fire and police stations, post offices, public parking structures, parks, public and private schools, adult learning centers, athletic facilities and gyms, bowling alleys, tennis centers, golf courses, playing fields, recreation sites, campgrounds, youth homes, after school facilities, daycare facilities, homeless shelters, hospitals, skilled nursing facilities, churches, meeting halls and lodges, and veteran facilities.`,
+    content: `Appraisal services and valuation studies of public, quasi-public, special use, 
+    and non-profit facilities include, among others, seaport properties, airports, wetlands, 
+    tidelands, conservation land, river rights-of-way, reservoirs, utility and railroad 
+    corridors, flood control channels, San Onofre Nuclear facility, city hall buildings and 
+    civic center complexes, courthouses, libraries, fire and police stations, post offices, 
+    public parking structures, parks, public and private schools, adult learning centers, 
+    athletic facilities and gyms, bowling alleys, tennis centers, golf courses, playing fields, 
+    recreation sites, campgrounds, youth homes, after school facilities, daycare facilities, 
+    homeless shelters, hospitals, skilled nursing facilities, churches, meeting halls and lodges, 
+    and veteran facilities.`,
     imagePath: '/assets/specialpurposeprop.JPG',
     carouselImages: [
       '/assets/specialpurposeprop.JPG',
@@ -54,46 +75,34 @@ Industrial property appraisals have included warehouses, light and heavy manufac
   {
     id: 'eminent-domain',
     title: 'Eminent Domain Appraisals',
-    content: `Eminent domain appraisals require a special understanding of specific valuation methods and applicable State and Federal law as to the appropriate methods to be utilized in the appraisal process. This firm has extensive experience in both full and partial acquisition appraisal studies having worked with numerous public agencies, eminent domain attorneys, acquisition companies, engineering firms, and private property owners. This firm has been involved in eminent domain appraisal studies throughout Southern California for over 50 years, with a deep understanding of the appropriate methodologies to be utilized in a variety of eminent domain appraisal scenarios, and a strong knowledge of State and Federal Eminent Domain Code sections, case law, and applicable judicial precedents.
-
-    Whether small single parcel acquisitions, or large 100+ multi-parcel acquisition projects such as freeway widenings, work on the California High Speed Rail in Central and Southern California, public school sites, utility corridors, mass transit subway projects, park expansion projects, bridge projects, etc., R.P. Laurain & Associates has the resources and experience to assist public agencies throughout the appraisal, review, and acquisition process, inclusive of expert witness testimony.
-
-    Our areas of special expertise include, but are not limited to:
-
-    Full Acquisition Analysis
-    Residential, Commercial, Industrial
-    Vacant land, Soil Contaminated Sites,
-    Special Use, Non-Profit, Governmental,
-    Remnant Land, Underlying Fee in Public Streets
-    Encumbered Land, Mitigation/Open Space, etc.
-    Partial Acquisition Analysis
-    Valuation as Part of the Whole
-    Valuation After the Taking
-    Cost-to-Cure and Mitigation Studies
-    Severance Damage Studies
-    Compensable vs. Non-Compensable Items
-    Benefit studies
-    Easement Valuations
-    Street, Highway, Freeway
-    Access Denial Rights
-    Surface rights
-    Exclusive and Non-exclusive use
-    Subsurface (pipeline, utility, drainage)
-    Deep Tunnel Easements and Studies
-    Drainage, storm drain, flood control
-    Aerial and Avigation
-    Temporary and Permanent Tieback
-    Battered Piling
-    De-watering wells
-    Temporary Construction Easements
-    Uneconomic Remainder Parcels
-    Railroad and Corridor Valuations
-    Transverse and Longitudinal Takings
-    Nominal Underlying Fee in Public ROW
-    Coordination with FF&E and Goodwill Appraisers
-    Conservation and Mitigation Land Exchanges
-    Inverse Condemnation
-    Tenant Leasehold Studies`,
+    content: `<strong>Eminent Domain Appraisals</strong> require a special understanding 
+    of specific valuation methods and applicable State and Federal law. Our firm has
+     extensive experience in both full and partial acquisition appraisal studies, 
+     collaborating with numerous public agencies, eminent domain attorneys, acquisition 
+     companies, engineering firms, and private property owners. With over 50 years of 
+     involvement in Southern California, we possess a deep understanding of appropriate
+      methodologies and strong knowledge of State and Federal Eminent Domain Code sections, 
+      case law, and judicial precedents.<br/><br/>Whether involving small single parcel 
+      acquisitions or large multi-parcel projects (such as freeway widenings, California High 
+      Speed Rail, public school sites, utility corridors, mass transit subway projects, and 
+      bridge projects), R.P. Laurain & Associates provides the resources and experience to 
+      assist public agencies throughout the appraisal, review, and acquisition process, 
+      including <strong>expert witness testimony</strong>.<br/><br/><h3>Our Areas of Special 
+      Expertise Include:</h3><div class="expertise-columns"><strong>Full Acquisition Analysis:</strong><ul><li>Residential, 
+      Commercial, Industrial</li><li>Vacant land, Soil Contaminated Sites</li><li>Special Use, 
+      Non-Profit, Governmental</li><li>Remnant Land, Underlying Fee in Public Streets</li><li>Encumbered Land,
+       Mitigation/Open Space, etc.</li></ul><strong>Partial Acquisition Analysis:</strong><ul><li>Valuation 
+       as Part of the Whole</li><li>Valuation After the Taking</li><li>Cost-to-Cure and Mitigation 
+       Studies</li><li>Severance Damage Studies</li><li>Compensable vs. Non-Compensable 
+       Items</li><li>Benefit studies</li></ul><strong>Easement Valuations:</strong><ul><li>Street, 
+       Highway, Freeway</li><li>Access Denial Rights</li><li>Surface rights</li><li>Exclusive and Non-exclusive 
+       use</li><li>Subsurface (pipeline, utility, drainage)</li><li>Deep Tunnel Easements and Studies</li><li>Drainage, 
+       storm drain, flood control</li><li>Aerial and Avigation</li><li>Temporary and Permanent 
+       Tieback</li><li>Battered Piling</li><li>De-watering wells</li><li>Temporary Construction 
+       Easements</li><li>Uneconomic Remainder Parcels</li></ul><strong>Other Key Areas:</strong><ul><li>Railroad 
+       and Corridor Valuations</li><li>Transverse and Longitudinal Takings</li><li>Nominal Underlying 
+       Fee in Public ROW</li><li>Coordination with FF&E and Goodwill Appraisers</li><li>Conservation 
+       and Mitigation Land Exchanges</li><li>Inverse Condemnation</li><li>Tenant Leasehold Studies</li></ul></div>`,
     imagePath: '/assets/emminent.JPG',
     carouselImages: [
       '/assets/emminent.JPG',
@@ -101,10 +110,36 @@ Industrial property appraisals have included warehouses, light and heavy manufac
       '/assets/content.JPG',
     ],
   },
+  // {
+  //   id: 'uasfla',
+  //   title: 'UASFLA (Yellow Book)',
+  //   content: `A comprehensive guide for appraisers working on federal land acquisitions, ensuring consistent valuation practices in compliance with federal laws and regulations. It emphasizes public interest and fair compensation, covering various property types and appraisal methodologies specific to government acquisitions. This standard is crucial for maintaining integrity and uniformity in federal land valuation processes.`,
+  //   imagePath: '/assets/backgroundbridge.png',
+  //   carouselImages: [],
+  // },
   {
     id: 'port-appraisals',
     title: 'Port Appraisals',
-    content: `For over 35 years, one of the areas of specialized expertise has included the appraisal of various international seaport and marine related properties, primarily along the West Coast, but involving port surveys across the United States. Appraisal studies of shipping industry terminal uses have included container, automobile, break bulk, dry bulk, general cargo, liquid bulk oil, liquid bulk fertilizer, private marine contractor terminal, and proposed oil terminals. Other port related appraisals have included oil tank farms, a peak electrical generating facility, railroad facilities, general "benchmark" studies, remnant land, flood control, utility, and road rights of way, etc. Port appraisal studied have included both fair market value estimates as well as fair market rent studies. This firm has also prepared numerous partial acquisition appraisal studies, and acted as the principal appraisal firm for the Port of Long Beach for both the Gerald Desmond Bridge Project and the Pier B On-Dock Rail Support Facility. Other major port acquisition projects have included significant assignments on the Alameda Corridor Project, a 20-mile long rail cargo expressway extending from Downtown Los Angeles to the Ports of Los Angeles and Long Beach. The Alameda Corridor project involved over 100 appraisals for the primary rail corridor, Anaheim Bridge, Pacific Coast Highway Grade Separation, Navy Way Grade Separation, and related sub-projects.`,
+    content: `For over 35 years, one of the areas of specialized expertise 
+    has included the appraisal of various international seaport and marine 
+    related properties, primarily along the West Coast, but involving port 
+    surveys across the United States. Appraisal studies of shipping industry 
+    terminal uses have included container, automobile, break bulk, dry bulk, 
+    general cargo, liquid bulk oil, liquid bulk fertilizer, private marine 
+    contractor terminal, and proposed oil terminals. Other port related 
+    appraisals have included oil tank farms, a peak electrical generating 
+    facility, railroad facilities, general "benchmark" studies, remnant land, 
+    flood control, utility, and road rights of way, etc. Port appraisal studied 
+    have included both fair market value estimates as well as fair market rent 
+    studies. This firm has also prepared numerous partial acquisition appraisal 
+    studies, and acted as the principal appraisal firm for the Port of Long Beach 
+    for both the Gerald Desmond Bridge Project and the Pier B On-Dock Rail Support 
+    Facility. Other major port acquisition projects have included significant 
+    assignments on the Alameda Corridor Project, a 20-mile long rail cargo expressway 
+    extending from Downtown Los Angeles to the Ports of Los Angeles and Long Beach. The 
+    Alameda Corridor project involved over 100 appraisals for the primary rail corridor, 
+    Anaheim Bridge, Pacific Coast Highway Grade Separation, Navy Way Grade Separation, 
+    and related sub-projects.`,
     imagePath: '/assets/portappraisalspic.JPG',
     carouselImages: [
       '/assets/portappraisalspic.JPG',
@@ -115,7 +150,23 @@ Industrial property appraisals have included warehouses, light and heavy manufac
   {
     id: 'marina-appraisals',
     title: 'Marina Appraisals',
-    content: `Various marina related appraisal studies have been conducted, primarily on leased land, for the City of Long Beach, Port of Los Angeles, County of Los Angeles Department of Beaches and Harbor (Marina del Rey), City of Newport Beach, City of Huntington Beach, the City of Oceanside, Port of San Diego, as well as other public agencies and private parties. Marina related studies have included boat slips, a live-aboard rent study, yacht clubs, restaurant and retail uses, low rise and high rise office buildings, medical offices, hotels, open space and park parcels, dryboat storage, boat repair yards, ship chandlery, fuel docks, parking structures, portions of the Aquarium of the Pacific in Long Beach, etc. Appraisal studies have also been conducted regarding the rental value of tidelands property, as well as adjacent upland properties. Further, certain marina related studies have involved complex leased fee and leasehold studies of both land and water areas, inclusive of proposed development and renovation projects, percentage rent, minimum rent, and other ground lease analyses.`,
+    content: `Various marina related appraisal studies have been 
+    conducted, primarily on leased land, for the City of Long Beach, 
+    Port of Los Angeles, County of Los Angeles Department of Beaches 
+    and Harbor (Marina del Rey), City of Newport Beach, City of Huntington 
+    Beach, the City of Oceanside, Port of San Diego, as well as other 
+    public agencies and private parties. Marina related studies have 
+    included boat slips, a live-aboard rent study, yacht clubs, restaurant 
+    and retail uses, low rise and high rise office buildings, medical 
+    offices, hotels, open space and park parcels, dryboat storage, boat 
+    repair yards, ship chandlery, fuel docks, parking structures, portions 
+    of the Aquarium of the Pacific in Long Beach, etc. Appraisal studies 
+    have also been conducted regarding the rental value of tidelands 
+    property, as well as adjacent upland properties. Further, certain 
+    marina related studies have involved complex leased fee and leasehold 
+    studies of both land and water areas, inclusive of proposed development 
+    and renovation projects, percentage rent, minimum rent, and other ground 
+    lease analyses.`,
     imagePath: '/assets/gallerymarina.png',
     carouselImages: [
       '/assets/gallerymarina.png',
@@ -126,7 +177,11 @@ Industrial property appraisals have included warehouses, light and heavy manufac
   {
     id: 'airport-appraisals',
     title: 'Airport Appraisals',
-    content: `Airport properties are typically appraised for the purpose of determining the fair market rental value of the underlying land and/or building improvements, as part of airport/tenant lease renewals and negotiations. The primary valuation methodologies utilized in determining the fair ma`,
+    content: `Airport properties are typically appraised for the purpose 
+    of determining the fair market rental value of the underlying land 
+    and/or building improvements, as part of airport/tenant lease renewals 
+    and negotiations. The primary valuation methodologies utilized in 
+    determining the fair ma`,
     imagePath: '/assets/galleryplane.png',
     carouselImages: [
       '/assets/galleryplane.png',
@@ -181,7 +236,14 @@ export default function ServicesPage() {
         <div className="services-top-box">
           <h2 className="text-title-lg">Services</h2>
           <p className="text-body">
-            R.P. Laurain and Associates has over 50 years of working with numerous public agencies in a wide variety of eminent domain, voluntary acquisition, disposition, rental value, bond financing, and related appraisal studies. Our experience has instilled in us the need for good public relations, diplomacy, and professionalism when interacting with property owners, tenants, attorneys, acquisition agents, and public agencies. The firm has a long and extensive history in working with local, state, and federal public agencies. Refer to the Clients page for a list of public agencies, attorneys, and right of way acquisition companies for whom appraisal services have been provided.
+            R.P. Laurain and Associates has over 50 years of working with numerous public agencies 
+            in a wide variety of eminent domain, voluntary acquisition, disposition, rental value, 
+            bond financing, and related appraisal studies. Our experience has instilled in us the need 
+            for good public relations, diplomacy, and professionalism when interacting with property 
+            owners, tenants, attorneys, acquisition agents, and public agencies. The firm has a long 
+            and extensive history in working with local, state, and federal public agencies. Refer to 
+            the Clients page for a list of public agencies, attorneys, and right of way acquisition 
+            companies for whom appraisal services have been provided.
           </p>
         </div>
 
@@ -248,7 +310,7 @@ export default function ServicesPage() {
               </button>
               {openService === service.id && (
                 <div className="service-content-dropdown">
-                  <p>{service.content}</p>
+                  <div dangerouslySetInnerHTML={{ __html: service.content }} />
                   <ServiceCarousel images={service.carouselImages} />
                 </div>
               )}

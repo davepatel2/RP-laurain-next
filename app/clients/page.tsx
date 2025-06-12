@@ -114,6 +114,53 @@ const cityData: City[] = [
   { name: 'Wildomar', county: 'Riverside' },
 ];
 
+const otherPublicAgencies = [
+  "Alameda Corridor Engineering Team",
+  "California Department of Transportation (CALTRANS)",
+  "California High Speed Rail County",
+  "Castaic Lake Water Agency",
+  "Central Basin Municipal Water District",
+  "Compton Unified School District",
+  "Federal Aviation Administration (FAA)",
+  "Federal Housing Administration (FHA)",
+  "Foothill Transit",
+  "Kern County",
+  "Long Beach Airport",
+  "Long Beach Unified School District",
+  "Long Beach Water Department",
+  "Los Angeles County Chief Executive Office",
+  "Los Angeles County Department of Beaches and Harbors",
+  "Los Angeles County Department of Public Works",
+  "Los Angeles County Metropolitan Transportation County (MTA)",
+  "Los Angeles Unified School District",
+  "Los Angeles World Airports",
+  "Lynwood Unified School District",
+  "Orange County Chief Executive Office",
+  "Orange County Counsel",
+  "Orange County Transportation County (OCTA)",
+  "Orange County Public Works",
+  "Port of Hueneme",
+  "Port of Long Beach",
+  "Port of Los Angeles",
+  "Port of San Diego",
+  "Redlands Airport",
+  "Riverside Airport",
+  "Riverside County Flood Control and Water District",
+  "Riverside County Transportation Commission (RCTC)",
+  "San Bernardino County General Services",
+  "San Bernardino County Transportation County (SBCTA)",
+  "South Coast Water District",
+  "Southern California Edison",
+  "State of California, Santa Monica Mountains Conservancy",
+  "Trust for Public Land, national land conservation organization",
+  "U. S. Department of Housing and Urban Development (HUD)",
+  "U. S. Department of Interior, National Park Service",
+  "U. S. Postal Service",
+  "Ventura County",
+  "Victor Valley Water District",
+  "Western Riverside County Regional Conservation County"
+];
+
 export default function ClientsPage() {
   const [sortBy, setSortBy] = useState('alphabetical');
   const [selectedCounty, setSelectedCounty] = useState('');
@@ -287,6 +334,15 @@ export default function ClientsPage() {
               ))}
             </div>
           )}
+
+          <div className="other-agencies-section">
+            <h2 className="other-agencies-title">Other Public Agencies</h2>
+            <ul className="other-agencies-list">
+              {otherPublicAgencies.map((agency, index) => (
+                <li key={index}>{agency}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
     </div>

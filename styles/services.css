@@ -135,27 +135,76 @@
 }
 
 .service-content-dropdown {
-  padding: 30px;
-  background-color: rgba(42, 42, 42, 0.9);
+  padding: 20px;
+  background-color: rgba(42, 42, 42, 0.9); /* Semi-transparent background for readability */
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 24px;
-  line-height: 1.8;
-  white-space: pre-wrap;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  line-height: 1.6;
+  white-space: pre-wrap; /* Preserve line breaks from content */
   position: relative;
   z-index: 1;
-  width: 100%;
-  margin: 0;
 }
 
 .service-content-dropdown p {
-  margin-bottom: 20px;
-  max-width: 100%;
-  padding: 0 20px;
+  margin-bottom: 10px;
 }
 
 .service-content-dropdown p:last-child {
   margin-bottom: 0;
+}
+
+.service-content-dropdown h3 {
+  font-size: 20px;
+  color: var(--gold_400); /* Highlight subheadings with a gold color */
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.service-content-dropdown ul {
+  list-style: disc;
+  padding-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.service-content-dropdown ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* Ensure the carousel has some top margin to separate it from text */
+.service-content-dropdown .service-carousel-container {
+  margin-top: 30px; 
+}
+
+.expertise-columns {
+  column-count: 2; /* Divide content into 2 columns */
+  column-gap: 40px; /* Space between columns */
+  margin-top: 20px; /* Space above the columns section */
+  margin-bottom: 20px; /* Space below the columns section */
+}
+
+.expertise-columns strong {
+  display: block; /* Make bold titles block-level for better spacing */
+  margin-top: 15px; /* Space above each bold subheading */
+  margin-bottom: 8px;
+  color: var(--gold_400); /* Highlight the category titles */
+}
+
+.expertise-columns ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 20px; /* Space after each list */
+  break-inside: avoid; /* Prevent lists from breaking across columns */
+}
+
+.expertise-columns ul li {
+  margin-bottom: 5px;
+  line-height: 1.4;
 }
 
 @media (max-width: 768px) {
@@ -187,6 +236,18 @@
 
   .services-details-content {
     padding: 0 10px;
+  }
+
+  .expertise-columns {
+    column-count: 1; /* Single column on smaller screens */
+    column-gap: 0;
+  }
+  .expertise-columns strong {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .expertise-columns ul {
+    margin-bottom: 15px;
   }
 }
 
